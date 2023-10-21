@@ -1,3 +1,6 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
 .reveal{
     transform: translateY(60px);
     opacity: 0;
@@ -14,13 +17,12 @@
 #img-me{
     width:50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius:50%;
 }
 .text{
-    font-weight:600;
     color:black;
     padding:2px 15px;
-    border-radius: 50px;
+    border-radius:50px;
     background-color: antiquewhite;
 }
 #a1,#a2,#a3,#a4{
@@ -38,15 +40,11 @@
     transition:.7s;
 }
 /* ...............contact............... */
-#contact-container{  
-    width:auto;
-    height:500px;  
-   
-}
+
 .contact{
     width:100%;
     height:auto;
-    background-color: antiquewhite;
+    background-color: #ffc107;
     border-radius: 10px;  
 }
 .kbd{
@@ -54,7 +52,7 @@
 }
 .box{
     padding: 25px 0px;
-    font-weight:600;
+    
 }
 .contact-span{
     text-transform:capitalize;
@@ -64,7 +62,7 @@
 .map-box{
     width:100%;
     height:auto;
-    border:2px double black;
+    border:1px double black;
 }
 .map-span{
     color:red;
@@ -75,47 +73,40 @@
 }
 .phone-sec{
    padding: 5px 15px;
-   width: 200px;
    border-radius: 10px;
    cursor: pointer;
-   background-color: #ffc107;
+   background-color: antiquewhite;
    transition: 0.5s;
 }
 .mail-sec{
     border-radius: 10px;
-    width:350px;
     padding:10px 15px;
     cursor: pointer;
-    background-color: #ffc107;
+    background-color: antiquewhite;
     transition: .5s;
 }
 .address-box{
     padding:15px 15px;
-    width:350px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 18px;
     transition: 0.5s;
-    background-color: #ffc107;
+    background-color: antiquewhite;
 }
 .img-leadership{
     border-radius: 10px;
 }
 .phone-sec:hover,.mail-sec:hover,.address-box:hover{
-    background-color:white;
+
     letter-spacing:1px;
 }
 /*-------------unique skill------------------------------*/
 .unique-ul{
-    background-color:orange;
+    background-color:#ffc107;
     border-radius: 10px;
     padding-bottom: 30px;
     cursor: pointer;
     transition: .4s;
-}
-
-.unique-ul:hover{
-    background-color:white;
 }
 /*-------------project-------------------*/
 
@@ -132,8 +123,6 @@
     padding:10px 0px;
     cursor: pointer;
     transition: .2s;
-  
-
 }
 .pro-kbd{
     font-size: large;
@@ -174,7 +163,7 @@
 
 #pro-container{
     padding:30px 20px;
-    border-radius: 50px;
+    border-radius:10px;
     background-color: antiquewhite;
 }
 .careeer-ob{
@@ -194,7 +183,6 @@
 #pro-table{
     background-color: #ffc107;
     border-radius:20px;
-    font-weight: 500;
 }
 .pro-header{
     background-color: rgb(88, 129, 233);
